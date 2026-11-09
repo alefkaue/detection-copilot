@@ -1,0 +1,22 @@
+# Material bruto da documentação (gravações do terminal, prints sem corte)
+.privado/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Dados baixados (grandes e com licença própria; scripts recriam)
+data/raw/
+external/
+
+# Modelos e pesos
+*.gguf
+*.safetensors
+outputs/
+
+# Segredos
+.env
